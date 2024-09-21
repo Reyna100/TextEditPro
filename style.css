@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav img {
+    height: 65px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+nav ul img {
+    height: 20px;
+    background-color: white;
+}
+
+nav ul li svg {
+    padding: 0px 3px;
+}
+
+.first {
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.first span {
+    font-size: 48px;
+    color: #353535;
+    padding: 0px 15px;
+}
+
+.first div {
+    font-size: 25px;
+    color: #576069;
+    padding-top: 30px;
+}
+
+.text {
+    width: 1005px;
+    font-family: sans-serif;
+}
+
+.btn {
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #f3fbfd;
+    height: 40px;
+    width: 132px;
+    margin: 5px 10px 10px 10px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5%;
+}
+
+.btn1 {
+    margin: 35px;
+    font-family: 'Segoe UI';
+    background-color: #00b6d1;
+    font-size: 15px;
+    width: 320px;
+    height: 42px;
+    padding: 25px 15px;
+    border: none;
+}
+
+.sec {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    gap: 20px;
+    width: 80vw;
+    padding-bottom: 30px;
+}
+
+.sec img {
+    height: 60px;
+}
+
+.letter {
+    font-size: 24px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.element {
+    height: 140px;
+    width: 310px;
+    background-color: whitesmoke;
+}
+
+.txt {
+    padding: 15px 50px 50px 50px;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.btn2 {
+    background-color: #00b6d1;
+}
+
+.btn3 {
+    background-color: #5cb85c;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 45px;
+}
+
+.last{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    height: 60px;
+}
+
+.end-logo {
+    background-color: white;
+    display: inline-block;
+    padding: 5px 5px 0px 5px;
+}
+.copyright{
+    padding-left: 17vw;
+}
