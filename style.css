@@ -154,7 +154,7 @@ main{
 footer {
     background-color: black;
     color: white;
-    padding: 45px;
+    padding: 30px;
 }
 
 .last {
@@ -184,6 +184,7 @@ footer {
     display: flex;
     gap: 13px;
     padding: 5px;
+    margin-right: 70px;
 }
 
 footer img {
